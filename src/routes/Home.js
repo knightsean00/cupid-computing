@@ -69,6 +69,7 @@ function Home() {
         return () => {
             window.removeEventListener("scroll", handleScroll);
         }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     return (
@@ -86,7 +87,6 @@ function Home() {
                         )
                     })
                 }
-                {/* <code className="binary-text" >{binary}</code> */}
             </div>
             <div className="full"></div>
         </>
