@@ -46,7 +46,19 @@ h6 {
   letter-spacing: 1rem;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
-  color: inherit;
+  color: #F38EBA;
+  text-shadow: #F38EBA 0px 0 0px;
+  transition: text-shadow .35s ease-in-out;
+}
+
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover {
+  text-shadow: #F38EBA 0px 0 20px;
+  transition: text-shadow .35s ease-in-out;
 }
 
 h1 {
@@ -122,10 +134,13 @@ select {
   max-width: 100%;
   border: 1px solid #fff;
   border-radius: 5px;
+  text-shadow: #F38EBA 0px 0 0px;
   transition: border .2s ease-in-out;
+  transition: text-shadow .35s ease-in-out;
 }
 
 .card:hover {
+  text-shadow: #F38EBA 0px 0 20px;
   border: 1px solid #F38EBA;
 }
 
@@ -161,14 +176,48 @@ select {
 }
 
 .binary-text {
-  /* font-size: clamp(.5rem, 1.5vw, 5rem); */
-  font-size: 1.5vw;
+  font-size: clamp(.6rem, 1.5vw, 5rem);
   color: rgba(243,142,186, 1);
   white-space-collapse: preserve;
 }
 
 .hero-text {
   color: rgba(243,142,186, .9); 
-  font-size: clamp(1rem, 5vw, 7rem);
+  font-size: clamp(1.5rem, 5vw, 7rem);
+  text-align: center;
+
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+
+.footer-icon {
+  text-shadow: #F38EBA 0px 0 0px;
+  font-size: 2rem;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footer-icon:hover {
+  text-shadow: #F38EBA 0px 0 20px;
+  color: #F38EBA;
+  transition: text-shadow .35s ease-in-out;
+  transition: color .35s ease-in-out;
+}
+
+.colored {
+  color: #F38EBA;
+}
+
+.text-center {
   text-align: center;
 }
