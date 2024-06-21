@@ -143,7 +143,7 @@ select {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content:end;
+  justify-content: end;
   /* background-color: black; */
   z-index: 2;
 }
@@ -161,12 +161,14 @@ select {
 }
 
 .binary-text {
-  font-size: 2rem;
+  /* font-size: clamp(.5rem, 1.5vw, 5rem); */
+  font-size: 1.5vw;
   color: rgba(243,142,186, 1);
   white-space-collapse: preserve;
 }
 
 .hero-text {
   color: rgba(243,142,186, .9); 
-  font-size: 6rem;
+  font-size: clamp(1rem, 5vw, 7rem);
+  text-align: center;
 }

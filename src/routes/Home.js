@@ -81,7 +81,6 @@ function Home() {
                 {
                     binary.map((val, idx) => {
                         const binaryString = val.join(" ");
-                        console.log(binaryString);
                         return (
                             <code key={idx} className="binary-text" style={{ color: `rgba(243, 142, 186, ${Math.max(1 - (scrollPosition / window.innerHeight), 0)}` }}>{binaryString}</code>
                         )
