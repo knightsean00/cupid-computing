@@ -13,8 +13,8 @@ root.render(
                 <Route path="/"><Home /></Route>
                 <Route path="*">
                     <div className="full">
-                        <h1>404 Error</h1>
-                        <h2><a style={{ fontFamily: "inherit" }} href="/">Return home</a></h2>
+                        <h2>404 Error</h2>
+                        <h3><a style={{ fontFamily: "inherit" }} href="/">Return home</a></h3>
                     </div>
                 </Route>
             </Switch>

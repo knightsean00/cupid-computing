@@ -82,48 +82,49 @@ function Home() {
                     binary.map((val, idx) => {
                         const binaryString = val.join(" ");
                         return (
-                            <code key={idx} className="binary-text" style={{ color: `rgba(243, 142, 186, ${Math.max(1 - (scrollPosition / window.innerHeight), 0)}` }}>{binaryString}</code>
+                            <code key={idx} className="binary-text" style={{ color: `rgba(243, 142, 186, ${Math.max(1 - (scrollPosition * 2 / window.innerHeight), 0)}` }}>{binaryString}</code>
                         )
                     })
                 }
             </div>
-            <div className="mb-5 container">
+            <div className="container">
                 <div className="row mb-5">
-                    <p>
-                        Are <i>you</i> looking for a change? Look no further than Cupid Computing.
-                    </p>
-                    <p>
-                        Cupid Computing aims to revolutionize the dating landscape by combining the magic of in-person events with
-                        novel algorithmic matchmaking techniques. Come to the event single and leave with a match by the end. Our first event
-                        is the <a href="https://partiful.com/e/BEDtXoaOYMFLAtw2NgbT">16th of July</a> in Chicago, so sign up quickly 
-                        while there's space!
-                    </p>
-                </div>
-                <div className="row mb-5">
-                    <h1>How do I sign up?</h1>
-                    <ol>
-                        <li>
-                            RSVP to our <a href="https://partiful.com/e/BEDtXoaOYMFLAtw2NgbT">Partiful event</a>. Doing so earlier will put ensure
-                            a higher position in the waitlist, so we highly encourage you do it as soon as possible if you are interested!
-                        </li>
-                        <li>
-                            On July 5th, we will start rolling out ticket links on a 24 hour basis to attendees on the list. Chosen attendees will have 24
-                            hours to buy their ticket before their position is no longer guaranteed.
-                        </li>
-                        <li>
-                            Once you buy a ticket, you will be added to the official list of attendees!
-                        </li>
-                        <li>
-                            The day before the event (July 15th), we will send out a survey for official attendees to fill out.
-                        </li>
-                        <li>
-                            Attend the event on July 16th!
-                        </li>
-                    </ol>
-                </div>
-                <div className="row mb-5">
-                    <h1>Common Q&A</h1>
                     <div className="col-md-12">
+                        <p>
+                            Cupid Computing aims to revolutionize the dating landscape by combining the magic of in-person events with
+                            novel algorithmic matchmaking techniques. Come to the event single and leave with a match by the end. Our first event
+                            is the <a href="https://partiful.com/e/BEDtXoaOYMFLAtw2NgbT">16th of July</a> in Chicago, so sign up quickly 
+                            while there's space!
+                        </p>
+                    </div>
+                </div>
+                <div className="row mb-5">
+                    <div className="col-12">
+                        <h2>How do I sign up?</h2>
+                        <ol>
+                            <li>
+                                RSVP to our <a href="https://partiful.com/e/BEDtXoaOYMFLAtw2NgbT">Partiful event</a>. Doing so earlier will put ensure
+                                a higher position in the waitlist, so we highly encourage you do it as soon as possible if you are interested!
+                            </li>
+                            <li>
+                                On July 5th, we will start rolling out ticket links on a 24 hour basis to attendees on the list. Chosen attendees will have 24
+                                hours to buy their ticket before their position is no longer guaranteed.
+                            </li>
+                            <li>
+                                Once you buy a ticket, you will be added to the official list of attendees!
+                            </li>
+                            <li>
+                                The day before the event (July 15th), we will send out a survey for official attendees to fill out.
+                            </li>
+                            <li>
+                                Attend the event on July 16th!
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div className="row mb-5">
+                    <div className="col-12">
+                        <h2>Common Q&A</h2>
                         <p><i>What if I can't make it anymore? Can I get a refund?</i></p>
                         <p>
                             Unfortunately, the ticketing system that our venue is using does not allow for refunds. In the scenario where you are no longer
@@ -133,7 +134,7 @@ function Home() {
                         </p>
                         <p><i>What will happen at the event?</i></p>
                         <p>
-                            The event will take place at a bar in Chicago (exact location TBD). Throughout the night there will be games and karaoke to encourage
+                            The event will take place at <a href="https://carolspub.com/index.html">Carol's Pub</a>. Throughout the night there will be games and karaoke to encourage
                             mingling, and, towards the end of the night, we will release everyone's match results so matches can meet one another!
                         </p>
                         <p><i>Is there a fee?</i></p>
@@ -145,17 +146,17 @@ function Home() {
                 </div>
                 <div className="row mb-5">
                     <div className="col-md-12 text-center">
-                        <p>Made by the Cupid Computing team with <i className="colored">♥</i></p>
+                        <p className="footer-description">Made by the Cupid Computing team with <em className="colored">♥</em></p>
                     </div>
                     <div className="col-3"></div>
                     <div className="col-2 text-center">
                         <a href="https://www.instagram.com/cupidcomputing/"><i className="bi bi-instagram footer-icon"></i></a>
                     </div>
                     <div className="col-2 text-center">
-                        <a href="https://www.instagram.com/cupidcomputing/"><i className="bi bi-tiktok footer-icon"></i></a>
+                        <a href="https://www.tiktok.com/@matchboxchicago"><i className="bi bi-tiktok footer-icon"></i></a>
                     </div>
                     <div className="col-2 text-center">
-                        <a href="https://www.instagram.com/cupidcomputing/"><i className="bi bi-facebook footer-icon"></i></a>
+                        <a href="mailto:cupidcomputing@gmail.com"><i className="bi bi-envelope footer-icon"></i></a>
                     </div>
                     <div className="col-3"></div>
                 </div>
