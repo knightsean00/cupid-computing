@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+div {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,6 +17,7 @@ body {
   color: #ddd;
   scrollbar-width: 10px;
   scrollbar-color: #a3a3a3;
+  display: block;
 }
 
 code {
@@ -227,12 +232,12 @@ select {
   color: #ffffff;
 }
 
-.footer-description em {
+.footer-description span {
   color: #F38EBA;
   transition: text-shadow .35s ease-in-out;
   text-shadow: #F38EBA 0px 0 0px;
 }
 
-.footer-description em:hover {
+.footer-description span:hover {
   text-shadow: #F38EBA 0px 0 20px;
 }

@@ -99,7 +99,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="row mb-5">
-                    <div className="col-12">
+                    <div className="col-md-12">
                         <h2>How do I sign up?</h2>
                         <ol>
                             <li>
@@ -123,7 +123,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="row mb-5">
-                    <div className="col-12">
+                    <div className="col-md-12">
                         <h2>Common Q&A</h2>
                         <p><i>What if I can't make it anymore? Can I get a refund?</i></p>
                         <p>
@@ -146,7 +146,7 @@ function Home() {
                 </div>
                 <div className="row mb-5">
                     <div className="col-md-12 text-center">
-                        <p className="footer-description">Made by the Cupid Computing team with <em className="colored">♥</em></p>
+                        <p className="footer-description">Made by the Cupid Computing team with <span>♥</span></p>
                     </div>
                     <div className="col-3"></div>
                     <div className="col-2 text-center">

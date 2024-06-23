@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Home from './routes/Home';
 import { Router, Switch, Route } from 'wouter';
-import "./commons/bootstrap.css";
 import "./commons/index.css";
+import "./commons/bootstrap.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
