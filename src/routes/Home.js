@@ -93,7 +93,7 @@ function Home() {
                         <p>
                             Cupid Computing aims to revolutionize the dating landscape by combining the magic of in-person events with
                             novel algorithmic matchmaking techniques. Come to the event single and leave with a match by the end. Our first event
-                            is the <a href="https://partiful.com/e/BEDtXoaOYMFLAtw2NgbT">16th of July</a> in Chicago, so sign up quickly 
+                            is the <a href="https://datinginchicago.eventbrite.com">18th of July</a> in Chicago, so sign up quickly 
                             while there's space!
                         </p>
                     </div>
@@ -103,21 +103,18 @@ function Home() {
                         <h2>How do I sign up?</h2>
                         <ol>
                             <li>
-                                RSVP to our <a href="https://partiful.com/e/BEDtXoaOYMFLAtw2NgbT">Partiful event</a>. Doing so earlier will put ensure
-                                a higher position in the waitlist, so we highly encourage you do it as soon as possible if you are interested!
-                            </li>
-                            <li>
-                                On July 5th, we will start rolling out ticket links on a 24 hour basis to attendees on the list. Chosen attendees will have 24
-                                hours to buy their ticket before their position is no longer guaranteed.
+                                Buy a ticket to at our <a href="https://datinginchicago.eventbrite.com">Eventbrite</a> page. Doing so earlier will ensure
+                                that you can get a early bird ticket, which is discounted at $25. After the early bird tickets sell out, then regular tickets
+                                will sell at $35.
                             </li>
                             <li>
                                 Once you buy a ticket, you will be added to the official list of attendees!
                             </li>
                             <li>
-                                The day before the event (July 15th), we will send out a survey for official attendees to fill out.
+                                The day before the event (July 17th), we will send out a survey for official attendees to fill out.
                             </li>
                             <li>
-                                Attend the event on July 16th!
+                                Attend the event on July 18th!
                             </li>
                         </ol>
                     </div>
@@ -127,20 +124,19 @@ function Home() {
                         <h2>Common Q&A</h2>
                         <p><i>What if I can't make it anymore? Can I get a refund?</i></p>
                         <p>
-                            Unfortunately, the ticketing system that our venue is using does not allow for refunds. In the scenario where you are no longer
+                            Unfortunately, we are not allowing refunds for most cases. In the scenario where you are no longer
                             able to attend, there are two possible options. If you fill out the survey and we get permission from your match, we can still exchange
                             contact information on your behalf so that you and your match can still plan a date together. If you haven't filled out the survey yet, 
                             we highly encourage that you find a friend of the same gender to attend in your place.
                         </p>
                         <p><i>What will happen at the event?</i></p>
                         <p>
-                            The event will take place at <a href="https://carolspub.com/index.html">Carol's Pub</a>. Throughout the night there will be games and karaoke to encourage
+                            The event will take place at <a href="https://www.loft22chi.com/">Loft 22</a>. Throughout the night there will be games to encourage
                             mingling, and, towards the end of the night, we will release everyone's match results so matches can meet one another!
                         </p>
                         <p><i>Is there a fee?</i></p>
                         <p>
-                            The cost for the ticket is $10. This covers the bar cover fee and the cost to use the algorithm. Cupid Computing in no way generates revenue
-                            or profit from this event, we do it purely so people can meet! Please also note that the fee does not cover drinks or food.
+                            The cost for the ticket is $35 ($25 for Early Bird). Please also note that the fee does not cover drinks or food.
                         </p>
                     </div>
                 </div>
