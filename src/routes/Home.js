@@ -92,8 +92,54 @@ function Home() {
                     <div className="col-md-12">
                         <p>
                             Cupid Computing aims to revolutionize the dating landscape by combining the magic of in-person events with
-                            novel algorithmic matchmaking techniques. Our first event has ended, but we are looking to have more in the future.
-                            If you're interested in being notified, sign up for updates <a href="https://forms.gle/oGNcx4m19vsERXXbA">here</a>.
+                            novel algorithmic matchmaking techniques. Come to the event single and leave with a match by the end.
+                            Our second event is the <a href="https://find-your-boo.eventbrite.com">10th of October</a> 
+                            in Chicago, so sign up quickly while there's still space!
+                        </p>
+                        <p>
+                            Can't make it, but interested in future events? Sign up for updates <a href="https://forms.gle/oGNcx4m19vsERXXbA">here</a>!
+                        </p>
+                    </div>
+                </div>
+                <div className="row mb-5">
+                    <div className="col-md-12">
+                        <h2>How do I sign up?</h2>
+                        <ol>
+                            <li>
+                                Buy a ticket to at our <a href="https://find-your-boo.eventbrite.com">Eventbrite</a> page. Doing so earlier will ensure
+                                that you can get a early bird ticket, which is discounted at $20. After the early bird tickets sell out, then regular tickets
+                                will sell at $30.
+                            </li>
+                            <li>
+                                Once you buy a ticket, you will be added to the official list of attendees!
+                            </li>
+                            <li>
+                                The day before the event (October 9th), we will send out a survey for official attendees to fill out.
+                            </li>
+                            <li>
+                                Attend the event on October 10th!
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div className="row mb-5">
+                    <div className="col-md-12">
+                        <h2>Common Q&A</h2>
+                        <p><i>What if I can't make it anymore? Can I get a refund?</i></p>
+                        <p>
+                            Unfortunately, we are not allowing refunds for most cases. In the scenario where you are no longer
+                            able to attend, there are two possible options. If you fill out the survey and we get permission from your match, we can still exchange
+                            contact information on your behalf so that you and your match can still plan a date together. If you haven't filled out the survey yet, 
+                            we highly encourage that you find a friend of the same gender to attend in your place.
+                        </p>
+                        <p><i>What will happen at the event?</i></p>
+                        <p>
+                            The event will take place at <a href="https://www.replaylincolnpark.com/">Replay Lincoln Park</a>. Throughout the night there will be games to encourage
+                            mingling, and, towards the end of the night, we will release everyone's match results so matches can meet one another!
+                        </p>
+                        <p><i>Is there a fee?</i></p>
+                        <p>
+                            The cost for the ticket is $30 ($20 for Early Bird). Please also note that the fee does not cover drinks or food.
                         </p>
                     </div>
                 </div>
