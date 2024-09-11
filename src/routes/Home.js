@@ -93,8 +93,8 @@ function Home() {
                         <p>
                             Cupid Computing aims to revolutionize the dating landscape by combining the magic of in-person events with
                             novel algorithmic matchmaking techniques. Come to the event single and leave with a match by the end.
-                            Our second event is the <a href="https://find-your-boo.eventbrite.com">10th of October</a> 
-                            in Chicago, so sign up quickly while there's still space!
+                            Our second event is the <a href="https://find-your-boo.eventbrite.com">10th of October</a> in
+                            Chicago, so sign up quickly while there's still space!
                         </p>
                         <p>
                             Can't make it, but interested in future events? Sign up for updates <a href="https://forms.gle/oGNcx4m19vsERXXbA">here</a>!
